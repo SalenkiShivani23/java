@@ -1,0 +1,23 @@
+﻿import java.util.*;
+class computer
+{
+    class processor
+    {
+        public void displayDetails()
+        {
+            System.out.println("it has 16gb ram storage");
+            System.out.println("it has 1.6 inch width");
+            System.out.println("intel core i5");
+            System.out.println("dell");
+        }
+    }
+}
+public class main
+{
+    public static void main(String[] args)
+    {
+        computer c=new computer();
+        computer.processor p=c.new processor();
+        p.displayDetails();
+    }
+}
